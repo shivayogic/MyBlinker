@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58AD34741D251F74004DDD90 /* MyBlinker.h in Headers */ = {isa = PBXBuildFile; fileRef = 58AD34731D251F74004DDD90 /* MyBlinker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58AD347B1D251F74004DDD90 /* MyBlinker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD34701D251F74004DDD90 /* MyBlinker.framework */; };
+		58AD34801D251F74004DDD90 /* MyBlinkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AD347F1D251F74004DDD90 /* MyBlinkerTests.swift */; };
+		58AD348B1D251FD3004DDD90 /* Blink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AD348A1D251FD3004DDD90 /* Blink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58AD347C1D251F74004DDD90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58AD34671D251F74004DDD90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AD346F1D251F74004DDD90;
+			remoteInfo = MyBlinker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58AD34701D251F74004DDD90 /* MyBlinker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyBlinker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AD34731D251F74004DDD90 /* MyBlinker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBlinker.h; sourceTree = "<group>"; };
+		58AD34751D251F74004DDD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AD347A1D251F74004DDD90 /* MyBlinkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBlinkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AD347F1D251F74004DDD90 /* MyBlinkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBlinkerTests.swift; sourceTree = "<group>"; };
+		58AD34811D251F74004DDD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AD348A1D251FD3004DDD90 /* Blink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Blink.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58AD346C1D251F74004DDD90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AD34771D251F74004DDD90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD347B1D251F74004DDD90 /* MyBlinker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58AD34661D251F74004DDD90 = {
+			isa = PBXGroup;
+			children = (
+				58AD34721D251F74004DDD90 /* MyBlinker */,
+				58AD347E1D251F74004DDD90 /* MyBlinkerTests */,
+				58AD34711D251F74004DDD90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58AD34711D251F74004DDD90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58AD34701D251F74004DDD90 /* MyBlinker.framework */,
+				58AD347A1D251F74004DDD90 /* MyBlinkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58AD34721D251F74004DDD90 /* MyBlinker */ = {
+			isa = PBXGroup;
+			children = (
+				58AD34731D251F74004DDD90 /* MyBlinker.h */,
+				58AD34751D251F74004DDD90 /* Info.plist */,
+				58AD348A1D251FD3004DDD90 /* Blink.swift */,
+			);
+			path = MyBlinker;
+			sourceTree = "<group>";
+		};
+		58AD347E1D251F74004DDD90 /* MyBlinkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				58AD347F1D251F74004DDD90 /* MyBlinkerTests.swift */,
+				58AD34811D251F74004DDD90 /* Info.plist */,
+			);
+			path = MyBlinkerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58AD346D1D251F74004DDD90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD34741D251F74004DDD90 /* MyBlinker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58AD346F1D251F74004DDD90 /* MyBlinker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AD34841D251F74004DDD90 /* Build configuration list for PBXNativeTarget "MyBlinker" */;
+			buildPhases = (
+				58AD346B1D251F74004DDD90 /* Sources */,
+				58AD346C1D251F74004DDD90 /* Frameworks */,
+				58AD346D1D251F74004DDD90 /* Headers */,
+				58AD346E1D251F74004DDD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBlinker;
+			productName = MyBlinker;
+			productReference = 58AD34701D251F74004DDD90 /* MyBlinker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58AD34791D251F74004DDD90 /* MyBlinkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AD34871D251F74004DDD90 /* Build configuration list for PBXNativeTarget "MyBlinkerTests" */;
+			buildPhases = (
+				58AD34761D251F74004DDD90 /* Sources */,
+				58AD34771D251F74004DDD90 /* Frameworks */,
+				58AD34781D251F74004DDD90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58AD347D1D251F74004DDD90 /* PBXTargetDependency */,
+			);
+			name = MyBlinkerTests;
+			productName = MyBlinkerTests;
+			productReference = 58AD347A1D251F74004DDD90 /* MyBlinkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58AD34671D251F74004DDD90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Shiv;
+				TargetAttributes = {
+					58AD346F1D251F74004DDD90 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U7W8B3Z22C;
+					};
+					58AD34791D251F74004DDD90 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 58AD346A1D251F74004DDD90 /* Build configuration list for PBXProject "MyBlinker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58AD34661D251F74004DDD90;
+			productRefGroup = 58AD34711D251F74004DDD90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58AD346F1D251F74004DDD90 /* MyBlinker */,
+				58AD34791D251F74004DDD90 /* MyBlinkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58AD346E1D251F74004DDD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AD34781D251F74004DDD90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58AD346B1D251F74004DDD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD348B1D251FD3004DDD90 /* Blink.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AD34761D251F74004DDD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD34801D251F74004DDD90 /* MyBlinkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58AD347D1D251F74004DDD90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58AD346F1D251F74004DDD90 /* MyBlinker */;
+			targetProxy = 58AD347C1D251F74004DDD90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		58AD34821D251F74004DDD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58AD34831D251F74004DDD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58AD34851D251F74004DDD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyBlinker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.constantcontact.MyBlinker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58AD34861D251F74004DDD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyBlinker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.constantcontact.MyBlinker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		58AD34881D251F74004DDD90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyBlinkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.constantcontact.MyBlinkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58AD34891D251F74004DDD90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyBlinkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.constantcontact.MyBlinkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58AD346A1D251F74004DDD90 /* Build configuration list for PBXProject "MyBlinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AD34821D251F74004DDD90 /* Debug */,
+				58AD34831D251F74004DDD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AD34841D251F74004DDD90 /* Build configuration list for PBXNativeTarget "MyBlinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AD34851D251F74004DDD90 /* Debug */,
+				58AD34861D251F74004DDD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58AD34871D251F74004DDD90 /* Build configuration list for PBXNativeTarget "MyBlinkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AD34881D251F74004DDD90 /* Debug */,
+				58AD34891D251F74004DDD90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58AD34671D251F74004DDD90 /* Project object */;
+}
